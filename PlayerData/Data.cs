@@ -14,17 +14,18 @@ namespace First_RP.PlayerData
 
         public Data(Client player)
         {
-            PlayerData = player;
-            Name = player.Name;
-            Cash = 0;
-            Age = 0;
-            Health = 0;
+            this.PlayerData = player;
+            this.Name = player.Name;
+            this.Cash = 0;
+            this.Age = 0;
+            this.Health = 0;
         }
 
         public void SetHealth(int health)
         {
-            Health = health + 10;
-            PlayerData.Health = health;
+            this.Health = health;
+            this.PlayerData.Health = health;
+            return;
         }
     }
 }
