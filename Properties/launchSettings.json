@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "First_RP": {
+      "commandName": "Executable",
+      "executablePath": "C:\\Users\\FiveM\\Desktop\\RageMP\\server-files\\server.exe",
+      "workingDirectory": "C:\\Users\\FiveM\\Desktop\\RageMP\\server-files"
+    }
+  }
+}

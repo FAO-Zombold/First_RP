@@ -1,0 +1,13 @@
+﻿<meta>
+  <info name="First_RP" description="Roleplay Framework" author="Zombold" version="1.0" type="gamemode"/>
+
+  <script src="bin\Debug\netcoreapp2.0\First_RP.dll"/>
+
+  <!-- Database connection settings -->
+  <settings>
+    <setting name="host" value="127.0.0.1"/>
+    <setting name="username" value="ragemp"/>
+    <setting name="password" value="Czilla1991"/>
+    <setting name="database" value="ragemp"/>
+  </settings>
+</meta>
